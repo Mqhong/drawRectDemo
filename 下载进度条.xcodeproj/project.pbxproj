@@ -15,6 +15,7 @@
 		8DA58F2E1BD95772009BE41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA58F2C1BD95772009BE41C /* LaunchScreen.storyboard */; };
 		8DA58F391BD95772009BE41C /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA58F381BD95772009BE41C /* _____Tests.m */; };
 		8DA58F441BD95772009BE41C /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA58F431BD95772009BE41C /* _____UITests.m */; };
+		8DA58F531BD959D7009BE41C /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA58F521BD959D7009BE41C /* ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8DA58F3F1BD95772009BE41C /* 下载进度条UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下载进度条UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA58F431BD95772009BE41C /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		8DA58F451BD95772009BE41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA58F511BD959D7009BE41C /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		8DA58F521BD959D7009BE41C /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				8DA58F2C1BD95772009BE41C /* LaunchScreen.storyboard */,
 				8DA58F2F1BD95772009BE41C /* Info.plist */,
 				8DA58F1E1BD95772009BE41C /* Supporting Files */,
+				8DA58F511BD959D7009BE41C /* ProgressView.h */,
+				8DA58F521BD959D7009BE41C /* ProgressView.m */,
 			);
 			path = "下载进度条";
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA58F261BD95772009BE41C /* ViewController.m in Sources */,
+				8DA58F531BD959D7009BE41C /* ProgressView.m in Sources */,
 				8DA58F231BD95772009BE41C /* AppDelegate.m in Sources */,
 				8DA58F201BD95772009BE41C /* main.m in Sources */,
 			);
